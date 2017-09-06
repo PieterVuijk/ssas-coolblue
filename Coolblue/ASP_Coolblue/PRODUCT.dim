@@ -1,0 +1,741 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="42fbe2f6-6fc4-4f09-aa52-6feaf7ca19ba" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Product</ID>
+  <Name>Product</Name>
+  <CreatedTimestamp>2015-11-23T08:02:12.276667Z</CreatedTimestamp>
+  <LastSchemaUpdate>2015-11-23T08:02:12.276667Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9524" scrolltop="-17432" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="12938" y="22093" backcolor="16185078" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="v_Product" left="-3775" top="-12030" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4939" height="11526" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800004b130000062d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dim_v_Product" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-9524</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-17432</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-3775</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-12030</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="134">
+            <Shape Id="PRODUCTID 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="PRODUCTID 1" />
+                <Attribute Id="PRODUCTCLASSID" />
+                <Attribute Id="PRODUCTLINEID" />
+                <Attribute Id="Teamid" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Brand 1" Expanded="false">
+              <Attributes>
+                <Attribute Id="Brand 1" />
+              </Attributes>
+              <Position x="192" y="20" />
+            </Shape>
+            <Shape Id="PRODUCTID" Expanded="true">
+              <Attributes>
+                <Attribute Id="PRODUCTID" />
+              </Attributes>
+              <Position x="192" y="68" />
+            </Shape>
+            <Shape Id="PRODUCTGROUPID" Expanded="false">
+              <Attributes>
+                <Attribute Id="PRODUCTGROUPID" />
+              </Attributes>
+              <Position x="192" y="116" />
+            </Shape>
+            <Shape Id="PRODUCTGROUPGROUPTYPEID" Expanded="false">
+              <Attributes>
+                <Attribute Id="PRODUCTGROUPGROUPTYPEID" />
+              </Attributes>
+              <Position x="365" y="116" />
+            </Shape>
+            <Shape Id="PRODUCTTYPEID" Expanded="false">
+              <Attributes>
+                <Attribute Id="PRODUCTTYPEID" />
+              </Attributes>
+              <Position x="192" y="164" />
+            </Shape>
+            <Shape Id="MANUFACTURERPRODUCTCODE" Expanded="false">
+              <Attributes>
+                <Attribute Id="MANUFACTURERPRODUCTCODE" />
+              </Attributes>
+              <Position x="192" y="212" />
+            </Shape>
+            <Shape Id="MANUFACTURERID" Expanded="false">
+              <Attributes>
+                <Attribute Id="MANUFACTURERID" />
+              </Attributes>
+              <Position x="192" y="260" />
+            </Shape>
+            <Shape Id="Producttype Segment" Expanded="false">
+              <Attributes>
+                <Attribute Id="Producttype Segment" />
+              </Attributes>
+              <Position x="192" y="308" />
+            </Shape>
+            <Shape Id="COLLECTIONPRODUCT" Expanded="false">
+              <Attributes>
+                <Attribute Id="COLLECTIONPRODUCT" />
+              </Attributes>
+              <Position x="192" y="356" />
+            </Shape>
+            <Shape Id="SIZECATEGORYID" Expanded="true">
+              <Attributes>
+                <Attribute Id="SIZECATEGORYID" />
+                <Attribute Id="SORTORDER" />
+              </Attributes>
+              <Position x="192" y="404" />
+            </Shape>
+            <Shape Id="Team Id" Expanded="false">
+              <Attributes>
+                <Attribute Id="Team Id" />
+              </Attributes>
+              <Position x="192" y="476" />
+            </Shape>
+            <Shape Id="IDENTIFICATIONCODE" Expanded="false">
+              <Attributes>
+                <Attribute Id="IDENTIFICATIONCODE" />
+              </Attributes>
+              <Position x="192" y="524" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2015-12-08T16:07:19.823333Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="5e2cb7d5-d630-4d0e-9a22-bf45ca381443">
+    <DataSourceViewID>Sales</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="8bd6bed1-7c84-4681-9b80-d100d38c54cb">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <DimensionPermissions>
+    <DimensionPermission dwd:design-time-name="6d7f51ff-0adb-4abd-a7b4-382941c1bb27">
+      <ID>DimensionPermission</ID>
+      <Name>DimensionPermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+      <AttributePermissions>
+        <AttributePermission dwd:design-time-name="7572ff6a-8ace-45e4-afa2-44720b7e39ca">
+          <AttributeID>Team Id</AttributeID>
+        </AttributePermission>
+      </AttributePermissions>
+    </DimensionPermission>
+  </DimensionPermissions>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute dwd:design-time-name="9a0b589d-ad69-4ee2-899d-dd254a71e118">
+      <ID>PRODUCTID</ID>
+      <Name>Product</Name>
+      <EstimatedCount>153640</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="006a2492-6b92-4dde-998b-56ed77814617">
+          <DataType>WChar</DataType>
+          <DataSize>60</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="234fcd81-1bfa-4b84-9800-a1c9d8ef4371">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>Product</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7593a3fa-96f4-4fa1-8624-327f1c439675">
+      <ID>MANUFACTURERID</ID>
+      <Name>Manufacturer</Name>
+      <EstimatedCount>1266</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="09b932e7-da41-4834-8f0f-5d0c0fe414f6">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3710ca74-2db1-4a83-a998-f0e3ead5e5ed">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>Manufacturer</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8180f1bc-efb1-485e-b876-563d8aee7a05">
+      <ID>PRODUCTGROUPID</ID>
+      <Name>Productgroup</Name>
+      <EstimatedCount>4667</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fb5fd024-eec6-4224-bbc0-1d7c8902c9ad">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="68d500de-ab07-4a05-b175-7afc9211fecd">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>Productgroup</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="b012b46a-55ba-4606-87fa-11a8114bbd43">
+          <AttributeID>PRODUCTGROUPGROUPTYPEID</AttributeID>
+          <Name>Productgrouptype</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ca5b8aa7-00b9-4153-a329-0baa6e3c8044">
+      <ID>PRODUCTGROUPGROUPTYPEID</ID>
+      <Name>Productgrouptype</Name>
+      <EstimatedCount>5</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2cf72cbe-3c15-4886-9590-a39914ede8a9">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f0b2b5da-ea69-457c-a728-a8eaa1424a1c">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>Productgroupgrouptype</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyDisplayFolder>Other Attributes</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="41d791f4-bdf8-40d2-b0f8-2cce4c5e8ea9">
+      <ID>PRODUCTTYPEID</ID>
+      <Name>Producttype</Name>
+      <EstimatedCount>506</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8b438572-0692-4cc4-b541-7c9d82c8f2d0">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2c49617f-1190-4f1f-9521-bbeb17ee3d69">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>Producttype</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="15548f63-5fc3-4237-a0e3-ac41bdef801a">
+      <ID>PRODUCTCLASSID</ID>
+      <Name>Productclass</Name>
+      <EstimatedCount>9</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="82267774-c77c-4ec8-ba16-8f67e2530714">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3608154c-cd08-43d6-a9ea-c696e09c9c7c">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>Productclass</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dc9f16ed-af05-4d8d-8053-a7c683da396a">
+      <ID>MANUFACTURERPRODUCTCODE</ID>
+      <Name>Manufacturer Product Code</Name>
+      <EstimatedCount>45690</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fb9f8a21-096b-43d6-9b7a-5ba2c80e22a7">
+          <DataType>WChar</DataType>
+          <DataSize>128</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dfe65222-77eb-40d2-8de4-17e8a3217576">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>ManufacturerProductcode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyDisplayFolder>Other Attributes</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="93921289-da8e-41af-85aa-aca907a704b0">
+      <ID>PRODUCTID 1</ID>
+      <Name>ProductId</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>153640</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c9146c31-ec74-415c-9a29-a1fc43cd44f1">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4527e6cc-1082-4614-af68-71eb6a35045b">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>ProductID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="b1fb39bc-b39f-43a3-aaf0-4b7fd37899e4">
+          <AttributeID>IDENTIFICATIONCODE</AttributeID>
+          <Name>Identification Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="310ee7c0-e91c-42a1-8c6f-4fbc255b7a51">
+          <AttributeID>Team Id</AttributeID>
+          <Name>Team</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a7c2ef4b-985d-44ea-8f4f-af7497b34062">
+          <AttributeID>SIZECATEGORYID</AttributeID>
+          <Name>Sizecategory</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="220fc947-3e4a-4098-a989-c44a35b63833">
+          <AttributeID>COLLECTIONPRODUCT</AttributeID>
+          <Name>Collection</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="36103a97-d7ee-409a-9650-11d625431548">
+          <AttributeID>Producttype Segment</AttributeID>
+          <Name>Producttype Segment</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="32900192-44dc-4a1c-a7d7-6ab996eee2e6">
+          <AttributeID>MANUFACTURERID</AttributeID>
+          <Name>Manufacturer</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="18ebb4dc-6aa7-4f12-80cc-65df8f62486f">
+          <AttributeID>MANUFACTURERPRODUCTCODE</AttributeID>
+          <Name>Manufacturer Product Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0fb31ef5-7ba5-410d-b614-aaa4b4f0926a">
+          <AttributeID>PRODUCTTYPEID</AttributeID>
+          <Name>Producttype</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9070b9a9-46a8-4f3b-9ef9-121e7818572c">
+          <AttributeID>PRODUCTGROUPID</AttributeID>
+          <Name>Productgroup</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="694c6acb-dc0f-4e41-8f78-51eed525a1b8">
+          <AttributeID>PRODUCTID</AttributeID>
+          <Name>Product</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5b382b13-1ef5-427d-a3dd-b7f4891f9d87">
+          <AttributeID>PRODUCTCLASSID</AttributeID>
+          <Name>Productclass</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1569d385-3364-4237-b3a8-8afdce3b889b">
+          <AttributeID>PRODUCTLINEID</AttributeID>
+          <Name>Productline</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4db8e123-c52e-4367-af0b-0fe958a1d1f3">
+          <AttributeID>Teamid</AttributeID>
+          <Name>Teamid</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="af1161a8-1ef1-4787-9e18-5bbede5465de">
+          <AttributeID>Brand 1</AttributeID>
+          <Name>Brand</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6fc0ae3e-c2f9-4d29-b7b9-a85c19c3d21c">
+      <ID>IDENTIFICATIONCODE</ID>
+      <Name>Identification Code</Name>
+      <EstimatedCount>48313</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="204d33a9-d7e7-410e-8886-0b3c62a31b08">
+          <DataType>WChar</DataType>
+          <DataSize>4000</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a41a4fb5-df25-49a7-9355-a2a5859c60bd">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>Identification_Code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyDisplayFolder>Other Attributes</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ab9ac8ec-a43e-4058-b7ff-6f12382a93f4">
+      <ID>Team Id</ID>
+      <Name>Team</Name>
+      <EstimatedCount>6</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="eedca8fc-9ffd-4f10-ae02-03e476e51f58">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c6f6c7a1-685e-440f-8823-956110b51aaa">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>Team</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="00d01aee-1b27-4d84-a0cc-42c460dcd207">
+      <ID>SIZECATEGORYID</ID>
+      <Name>Sizecategory</Name>
+      <EstimatedCount>8</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4ec961c6-70c7-4f4a-b34d-e5474a44a264">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fe90e001-d42f-48e5-8d6d-f344b3d42306">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>SizeCategory</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ed982226-fef7-489b-8a61-2812074b3730">
+          <AttributeID>SORTORDER</AttributeID>
+          <Name>SizecategorySortOrder</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>AttributeName</OrderBy>
+      <OrderByAttributeID>SORTORDER</OrderByAttributeID>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bb91fd06-9e1b-4165-9da9-335db6572266">
+      <ID>PRODUCTLINEID</ID>
+      <Name>Productline</Name>
+      <EstimatedCount>3704</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0b1858ff-21bd-4c3c-812b-50c6497eb182">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fae2915a-5d65-4139-adaa-66d4f669a76d">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>Productline</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e31b9947-1290-4bd7-bffb-ecfbdc708415">
+      <ID>SORTORDER</ID>
+      <Name>SizecategorySortOrder</Name>
+      <EstimatedCount>8</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bf6296e9-889d-4b93-824b-295ac6675700">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ddc7b0f8-68d7-4ef1-b8f1-ca1a2e28b7ac">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>SizeCategorySortOrder</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <AttributeHierarchyDisplayFolder>Other Attributes</AttributeHierarchyDisplayFolder>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d85ed125-9b15-444b-80f0-350e64905306">
+      <ID>COLLECTIONPRODUCT</ID>
+      <Name>Collection</Name>
+      <EstimatedCount>14645</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9a36c974-4042-4568-a9dd-57894ae1d4b1">
+          <DataType>WChar</DataType>
+          <DataSize>60</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="47e2801b-e91e-45e4-a30b-15fb893dc037">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>Collection</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f3c222e8-95ed-4bd4-8f8b-2d2cffacf9e3">
+      <ID>Producttype Segment</ID>
+      <Name>Producttype Segment</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="90a88191-ffa6-4596-9b2a-f3f7646eeef2">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bb3c1453-13f6-401a-9377-49a190bfec6d">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>Producttype_Segment</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4b726da6-7e78-44cb-9f62-dc7bd3c59025">
+      <ID>Teamid</ID>
+      <Name>Teamid</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="956ecbec-d9dd-49a9-b439-2596a1dc44b8">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="15e88859-ebc7-441f-b5aa-066a91ea6eb0">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>TeamID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="871e6a64-b021-4e77-9f7e-fc6e8ebeaa9b">
+      <ID>Brand 1</ID>
+      <Name>Brand</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d8d67a98-f997-4d9b-902d-9ccf6585ff21">
+          <DataType>WChar</DataType>
+          <DataSize>60</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ae7eedb9-ace7-437d-b397-8d84cde3a9c5">
+            <TableID>dim_v_Product</TableID>
+            <ColumnID>Brand</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>Other Attributes</AttributeAllMemberName>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="2a6853e9-7221-41d0-af51-30a84a0fcf7e">
+      <ID>Hierarchy</ID>
+      <Name>Productgrouptype - Productgroup - Producttype - Product</Name>
+      <Levels>
+        <Level dwd:design-time-name="ccd28e08-2aee-4ff3-9229-7b2c856fc4d4">
+          <ID>Productgrouptype</ID>
+          <Name>Productgrouptype</Name>
+          <SourceAttributeID>PRODUCTGROUPGROUPTYPEID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="14c5bf9c-10b3-4022-86c8-f2fce31d999b">
+          <ID>Productgroup</ID>
+          <Name>Productgroup</Name>
+          <SourceAttributeID>PRODUCTGROUPID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="31e7ec19-2d2a-4c58-b5e3-ba093d1b5430">
+          <ID>Producttype</ID>
+          <Name>Producttype</Name>
+          <SourceAttributeID>PRODUCTTYPEID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="18dadf5b-2bd9-4f62-8161-c715eb9655d4">
+          <ID>Product</ID>
+          <Name>Product</Name>
+          <SourceAttributeID>PRODUCTID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d7cc9548-9188-42bb-ba67-c90efdc99706">
+          <ID>ProductId</ID>
+          <Name>ProductId</Name>
+          <SourceAttributeID>PRODUCTID 1</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="3d10a21e-d382-4aa0-8abc-5f83c2046bfd">
+          <ID>Manufacturer Product Code</ID>
+          <Name>Manufacturer Product Code</Name>
+          <SourceAttributeID>MANUFACTURERPRODUCTCODE</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="5e5c0ed3-0fd9-4b4b-991a-dcbe1d574fc2">
+          <ID>Identification Code</ID>
+          <Name>Identification Code</Name>
+          <SourceAttributeID>IDENTIFICATIONCODE</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="ea0947a8-30be-4c8a-ab23-39c556795d88">
+      <ID>Hierarchy 1</ID>
+      <Name>Manufacturer - Brand - Product</Name>
+      <Levels>
+        <Level dwd:design-time-name="3040a145-5023-45e1-bcd1-e0f2590c7bd2">
+          <ID>Manufacturer</ID>
+          <Name>Manufacturer</Name>
+          <SourceAttributeID>MANUFACTURERID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="2f7a6ac6-b458-46db-8b2d-2bfb029ff032">
+          <ID>Brand</ID>
+          <Name>Brand</Name>
+          <SourceAttributeID>Brand 1</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="2e777459-5e1d-4d48-a29d-851e8d8fa43a">
+          <ID>Product</ID>
+          <Name>Product</Name>
+          <SourceAttributeID>PRODUCTID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="7ad8f28e-b72e-46a0-bd31-7e021b566c57">
+      <ID>Hierarchy 1 1</ID>
+      <Name>Brand - Manufacturer - Product</Name>
+      <Levels>
+        <Level dwd:design-time-name="fe6ab02b-12b6-430b-b05c-b833b9374eff">
+          <ID>Brand</ID>
+          <Name>Brand</Name>
+          <SourceAttributeID>Brand 1</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9e5fbd57-6280-4beb-bd10-339d60c1fc48">
+          <ID>Manufacturer</ID>
+          <Name>Manufacturer</Name>
+          <SourceAttributeID>MANUFACTURERID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="7e78a85a-08f2-43eb-a2ba-c51daeaa0605">
+          <ID>Product</ID>
+          <Name>Product</Name>
+          <SourceAttributeID>PRODUCTID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="e395a8a4-d5ef-4351-ae36-fd1b79521238">
+      <ID>Hierarchy 2</ID>
+      <Name>Productgrouptype - Productgroup</Name>
+      <Levels>
+        <Level dwd:design-time-name="38f09879-656c-4e63-ad89-cc4d3bdf6e37">
+          <ID>Productgrouptype</ID>
+          <Name>Productgrouptype</Name>
+          <SourceAttributeID>PRODUCTGROUPGROUPTYPEID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="16c01b8e-60e6-4b9a-966a-2f876269b304">
+          <ID>Productgroup</ID>
+          <Name>Productgroup</Name>
+          <SourceAttributeID>PRODUCTGROUPID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="05e07dbe-d45f-4fa3-83c6-f22f33a739f2">
+      <ID>Hierarchy 3</ID>
+      <Name>Team - Productgroup - Producttype - Product</Name>
+      <Levels>
+        <Level dwd:design-time-name="8df15881-5177-43e9-9d84-d52b8b791e81">
+          <ID>Team</ID>
+          <Name>Team</Name>
+          <SourceAttributeID>Team Id</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="fec18162-1284-4419-800a-eb41e4db06b1">
+          <ID>Productgroup</ID>
+          <Name>Productgroup</Name>
+          <SourceAttributeID>PRODUCTGROUPID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="49117b0d-a5f6-4562-9796-4bcf12501dc2">
+          <ID>Producttype</ID>
+          <Name>Producttype</Name>
+          <SourceAttributeID>PRODUCTTYPEID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="0bdbe6b2-d670-4c4b-b2be-588305492074">
+          <ID>Product</ID>
+          <Name>Product</Name>
+          <SourceAttributeID>PRODUCTID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="cb04cfdd-3043-4092-9a96-f0bb3a5a7561">
+      <ID>Hierarchy 4</ID>
+      <Name>Team - Productgroup - Producttype - Collection - Product</Name>
+      <Levels>
+        <Level dwd:design-time-name="b268e18a-15d1-40eb-abca-6b0f03ae5b8c">
+          <ID>Team</ID>
+          <Name>Team</Name>
+          <SourceAttributeID>Team Id</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="a44d42df-74c2-4d3a-8c55-ef5219ea6a58">
+          <ID>Productgroup</ID>
+          <Name>Productgroup</Name>
+          <SourceAttributeID>PRODUCTGROUPID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9097ed08-99d7-49f0-8c18-3afa0f446ca1">
+          <ID>Producttype</ID>
+          <Name>Producttype</Name>
+          <SourceAttributeID>PRODUCTTYPEID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9fc77cb2-892a-4d95-9918-4324dfdbcf03">
+          <ID>Collection</ID>
+          <Name>Collection</Name>
+          <SourceAttributeID>COLLECTIONPRODUCT</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="5fee70ed-dcf9-4f86-83ad-d2f5820690a9">
+          <ID>Product</ID>
+          <Name>Product</Name>
+          <SourceAttributeID>PRODUCTID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="c109a864-ca90-4b40-94ac-1ff50a50238c">
+      <ID>Hierarchy 3 1</ID>
+      <Name>Team - Productgroup - Producttype Segment</Name>
+      <Levels>
+        <Level dwd:design-time-name="c512bf0a-bc59-444b-8edb-c2093e9a26a0">
+          <ID>Team</ID>
+          <Name>Team</Name>
+          <SourceAttributeID>Team Id</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="7b194ba6-e845-4728-ba3f-80298eac51f1">
+          <ID>Productgroup</ID>
+          <Name>Productgroup</Name>
+          <SourceAttributeID>PRODUCTGROUPID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="443f704a-8a36-4894-8fe9-cb0264f09ffd">
+          <ID>Producttype Segment</ID>
+          <Name>Producttype Segment</Name>
+          <SourceAttributeID>Producttype Segment</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching dwd:design-time-name="e5ed52bb-4a4f-4d94-ab9f-714e276edf62">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="f14b23ef-181f-41d0-9740-247332985203" />
+  </ProactiveCaching>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

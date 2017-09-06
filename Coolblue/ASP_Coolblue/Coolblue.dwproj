@@ -1,0 +1,374 @@
+﻿<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <ProductVersion>11.0.5583.0</ProductVersion>
+  <SchemaVersion>9.0.2.10</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>ASP_Coolblue_SL.database</Name>
+    <FullPath>ASP_Coolblue_SL.database</FullPath>
+  </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Sales.cube</Name>
+      <FullPath>Sales.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Sales.partitions</Name>
+          <FullPath>Sales.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Attached Product Cross Sell Type.dim</Name>
+      <FullPath>Attached Product Cross Sell Type.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Bundle.dim</Name>
+      <FullPath>Bundle.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Country.dim</Name>
+      <FullPath>Country.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cross Sell Type.dim</Name>
+      <FullPath>Cross Sell Type.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Customer.dim</Name>
+      <FullPath>Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Date Calculations.dim</Name>
+      <FullPath>Date Calculations.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Date Future.dim</Name>
+      <FullPath>Date Future.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Date.dim</Name>
+      <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Device Product Proposition.dim</Name>
+      <FullPath>Device Product Proposition.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>General Bucket.dim</Name>
+      <FullPath>General Bucket.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>GfK Product Group.dim</Name>
+      <FullPath>GfK Product Group.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>GfK Reporting Channel.dim</Name>
+      <FullPath>GfK Reporting Channel.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords Ad.dim</Name>
+      <FullPath>Google Adwords Ad.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords AdGroup.dim</Name>
+      <FullPath>Google Adwords AdGroup.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords AdGroupState.dim</Name>
+      <FullPath>Google Adwords AdGroupState.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords AdState.dim</Name>
+      <FullPath>Google Adwords AdState.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords Campaign Category.dim</Name>
+      <FullPath>Google Adwords Campaign Category.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords Campaign Handling.dim</Name>
+      <FullPath>Google Adwords Campaign Handling.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords Campaign.dim</Name>
+      <FullPath>Google Adwords Campaign.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords CampaignState.dim</Name>
+      <FullPath>Google Adwords CampaignState.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords Category.dim</Name>
+      <FullPath>Google Adwords Category.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords Customer.dim</Name>
+      <FullPath>Google Adwords Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords Description Line1.dim</Name>
+      <FullPath>Google Adwords Description Line1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords Description Line2.dim</Name>
+      <FullPath>Google Adwords Description Line2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords Keyword.dim</Name>
+      <FullPath>Google Adwords Keyword.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords MatchType.dim</Name>
+      <FullPath>Google Adwords MatchType.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords NetworkWithSearchPartners.dim</Name>
+      <FullPath>Google Adwords NetworkWithSearchPartners.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords Product Type.dim</Name>
+      <FullPath>Google Adwords Product Type.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords Quality Score Category.dim</Name>
+      <FullPath>Google Adwords Quality Score Category.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords Url Category.dim</Name>
+      <FullPath>Google Adwords Url Category.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Google Adwords Url.dim</Name>
+      <FullPath>Google Adwords Url.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Insurance.dim</Name>
+      <FullPath>Insurance.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Intercompany.dim</Name>
+      <FullPath>Intercompany.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Invoiced Product Combination.dim</Name>
+      <FullPath>Invoiced Product Combination.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Invoicetype.dim</Name>
+      <FullPath>Invoicetype.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Marketing Cost Allocation Type.dim</Name>
+      <FullPath>Marketing Cost Allocation Type.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Multiwarehouse Type.dim</Name>
+      <FullPath>Multiwarehouse Type.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Order Reason.dim</Name>
+      <FullPath>Order Reason.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Order Source.dim</Name>
+      <FullPath>Order Source.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Orderlineitemserviceplan.dim</Name>
+      <FullPath>Orderlineitemserviceplan.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>OrderSource And Delivery.dim</Name>
+      <FullPath>OrderSource And Delivery.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Partner Tracking.dim</Name>
+      <FullPath>Partner Tracking.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Payment Method.dim</Name>
+      <FullPath>Payment Method.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Product.dim</Name>
+      <FullPath>Product.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Productspecification.dim</Name>
+      <FullPath>Productspecification.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Promotional Icon.dim</Name>
+      <FullPath>Promotional Icon.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sales Action.dim</Name>
+      <FullPath>Sales Action.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Service Plan.dim</Name>
+      <FullPath>Service Plan.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Serviceplan On Invoiced Order.dim</Name>
+      <FullPath>Serviceplan On Invoiced Order.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Shipment Carrier.dim</Name>
+      <FullPath>Shipment Carrier.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Shipment.dim</Name>
+      <FullPath>Shipment.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Shop.dim</Name>
+      <FullPath>Shop.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Shopcluster.dim</Name>
+      <FullPath>Shopcluster.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Shopoutlet.dim</Name>
+      <FullPath>Shopoutlet.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Stocklocation.dim</Name>
+      <FullPath>Stocklocation.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Subsequent Agreement Type.dim</Name>
+      <FullPath>Subsequent Agreement Type.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Subsequent Agreement.dim</Name>
+      <FullPath>Subsequent Agreement.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Subsidiary.dim</Name>
+      <FullPath>Subsidiary.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TEAM REPORTING HIERARCHY.dim</Name>
+      <FullPath>TEAM REPORTING HIERARCHY.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>User Name.dim</Name>
+      <FullPath>User Name.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>GA Categories.dim</Name>
+      <FullPath>GA Categories.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>GA Landing Page Path.dim</Name>
+      <FullPath>GA Landing Page Path.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>GA Medium.dim</Name>
+      <FullPath>GA Medium.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>GA Page Type.dim</Name>
+      <FullPath>GA Page Type.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>GA Source.dim</Name>
+      <FullPath>GA Source.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>ODS.ds</Name>
+      <FullPath>ODS.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Coolblue_UDM.dsv</Name>
+      <FullPath>Coolblue_UDM.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <Roles>
+    <ProjectItem>
+      <Name>Administrator.role</Name>
+      <FullPath>Administrator.role</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>RowLevelUser.role</Name>
+      <FullPath>RowLevelUser.role</FullPath>
+    </ProjectItem>
+  </Roles>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>ODS</Id>
+            <Name>ODS</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=(local);Integrated Security=SSPI;Initial Catalog=ods</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>ODS</Id>
+            <Name>ODS</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+        <DeploymentServerEdition>BusinessIntelligence</DeploymentServerEdition>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Production</Name>
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>ODS</Id>
+            <Name>ODS</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=nlam01-prdsql01;Integrated Security=SSPI;Initial Catalog=ods</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>ODS</Id>
+            <Name>ODS</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+        <DeploymentServerEdition>BusinessIntelligence</DeploymentServerEdition>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Acceptance</Name>
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>ODS</Id>
+            <Name>ODS</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=nlam01-ppbsql01;Integrated Security=SSPI;Initial Catalog=ods</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>ODS</Id>
+            <Name>ODS</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+        <CubeKeyErrorLogFiles>
+          <ConfigurationSetting>
+            <Id>Marketing</Id>
+            <Name>Marketing</Name>
+            <Value xsi:type="xsd:string">D:\Program Files\Microsoft SQL Server\MSAS11.MSSQLSERVER\OLAP\Log\ErrorLog.log</Value>
+          </ConfigurationSetting>
+        </CubeKeyErrorLogFiles>
+        <DeploymentServerEdition>BusinessIntelligence</DeploymentServerEdition>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

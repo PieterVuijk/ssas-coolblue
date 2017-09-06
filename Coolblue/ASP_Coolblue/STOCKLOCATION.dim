@@ -1,0 +1,329 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="caa0462d-9406-41a3-b971-754632e78b66" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>STOCKLOCATION</ID>
+  <Name>Stocklocation</Name>
+  <CreatedTimestamp>2015-11-23T08:02:12.323333Z</CreatedTimestamp>
+  <LastSchemaUpdate>2015-11-23T08:02:12.323333Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2798" scrolltop="-6971" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9604" y="13944" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DIM_VAN_STOCKLOCATION" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4948" height="7355" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="0008000054130000bb1c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_VAN_STOCKLOCATION" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2798</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6971</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2015-12-08T15:49:24.236667Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7cdc0f7e-3fba-49b8-ae65-f96413a963d6">
+    <DataSourceViewID>Sales</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="3d4b465e-c25b-49bb-9219-67bf6a3b4271">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Translations>
+    <Translation dwd:design-time-name="13aff7b1-d4f5-4511-87ce-7e2c782dbc44">
+      <Language>2057</Language>
+      <Caption>Stocklocation</Caption>
+    </Translation>
+  </Translations>
+  <Attributes>
+    <Attribute dwd:design-time-name="a61c145b-fe7f-42b3-b814-cd1c90f74cd9">
+      <ID>STOCKLOCATIONID</ID>
+      <Name>Stocklocation</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>22</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="074a5a60-9144-40c3-a04a-d66531450732">
+          <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ae981108-fd2d-4225-8bb3-6d236182c584">
+            <TableID>dbo_DIM_VAN_STOCKLOCATION</TableID>
+            <ColumnID>STOCKLOCATIONID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="ab2e609a-ad82-4325-8040-989c72fd5f92">
+        <DataType>WChar</DataType>
+        <DataSize>112</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="15fc91e4-7b6f-4dc6-8eb5-c0e6da866703">
+          <TableID>dbo_DIM_VAN_STOCKLOCATION</TableID>
+          <ColumnID>STOCKLOCATION</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="24387eb9-280c-4c84-9c1b-c514d7a941bd">
+          <AttributeID>Location</AttributeID>
+          <Name>Location</Name>
+          <Translations>
+            <Translation dwd:design-time-name="bf0a2aee-b10c-44da-8a7a-949961b81f78">
+              <Language>2057</Language>
+              <Caption>Location</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d8928377-a80c-484c-a12f-3d9bdd768fde">
+          <AttributeID>Store Location</AttributeID>
+          <Name>Store Location</Name>
+          <Translations>
+            <Translation dwd:design-time-name="044244f6-e858-499d-b7a8-55888e60c6fc">
+              <Language>2057</Language>
+              <Caption>Store Location</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3b11c9aa-e03c-469c-bdeb-7006936595ee">
+          <AttributeID>Main Distribution Location</AttributeID>
+          <Name>Main Distribution Location</Name>
+          <Translations>
+            <Translation dwd:design-time-name="2385b03d-8b61-47ad-8825-740a999af391">
+              <Language>2057</Language>
+              <Caption>Main Distribution Location</Caption>
+            </Translation>
+          </Translations>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="43a65fb9-4d34-43d7-b19f-a909562b28d0">
+          <AttributeID>SUBSIDIARYID</AttributeID>
+          <Name>Subsidiary</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a331cbac-6a37-4580-9ff4-4d9f7b17892f">
+      <ID>Location</ID>
+      <Name>Location</Name>
+      <Description>Physical location</Description>
+      <EstimatedCount>7</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bd5116d8-8d33-4042-ae82-a4ecbe156253">
+          <DataType>WChar</DataType>
+          <DataSize>112</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="518572ac-f654-421d-aa8c-c310fda1ef11">
+            <TableID>dbo_DIM_VAN_STOCKLOCATION</TableID>
+            <ColumnID>Location</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="453326ae-dc05-4e53-9505-9e0b4848edcb">
+        <DataType>WChar</DataType>
+        <DataSize>112</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="cbfcad37-6784-4a70-a08b-5918ec21cba8">
+          <TableID>dbo_DIM_VAN_STOCKLOCATION</TableID>
+          <ColumnID>Location</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="ce9e50a3-6345-4808-8245-768a123f6a62">
+          <Language>2057</Language>
+          <Caption>Location</Caption>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d2262e71-fbb8-4eb6-91a0-cefdc2834287">
+      <ID>Store Location</ID>
+      <Name>Store Location</Name>
+      <Description>Store Location</Description>
+      <EstimatedCount>4</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bb058fd8-640a-4792-97ad-b46943a7be28">
+          <DataType>WChar</DataType>
+          <DataSize>112</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f7173a40-10f8-474a-8fad-cf5d2a40cf4e">
+            <TableID>dbo_DIM_VAN_STOCKLOCATION</TableID>
+            <ColumnID>StoreLocation</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="f50cfb3c-3e65-4029-84cd-d007e2e86906">
+        <DataType>WChar</DataType>
+        <DataSize>112</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="7d0b0aef-9572-4e2d-b3f9-9d5b6f9c6dd4">
+          <TableID>dbo_DIM_VAN_STOCKLOCATION</TableID>
+          <ColumnID>StoreLocation</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="3c121cc6-7f71-4b07-b308-42ccb5cf66ae">
+          <Language>2057</Language>
+          <Caption>Store Location</Caption>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1bdcc0f9-2d39-494e-8442-71fb2522942e">
+      <ID>Main Distribution Location</ID>
+      <Name>Main Distribution Location</Name>
+      <Description>The location where Coolblue receive suppliers for their deliveries.</Description>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0f59cecb-fd05-4e79-bf3c-e18e1af99983">
+          <DataType>WChar</DataType>
+          <DataSize>112</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="699703bc-0d07-4acc-82ef-6cd4c3cf7e34">
+            <TableID>dbo_DIM_VAN_STOCKLOCATION</TableID>
+            <ColumnID>MainDistributionLocation</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="30fa94ef-0484-42df-ad7a-7db8428106b7">
+        <DataType>WChar</DataType>
+        <DataSize>112</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ccb436aa-ce72-4538-bf8d-e58f8ca13e72">
+          <TableID>dbo_DIM_VAN_STOCKLOCATION</TableID>
+          <ColumnID>MainDistributionLocation</ColumnID>
+        </Source>
+      </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="89f1f0af-9e6f-47d9-8281-0ed347b69a11">
+          <Language>2057</Language>
+          <Caption>Main Distribution Location</Caption>
+        </Translation>
+      </Translations>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0e4f488a-b32b-45e7-a8a5-def417110ea2">
+      <ID>SUBSIDIARYID</ID>
+      <Name>Subsidiary</Name>
+      <EstimatedCount>3</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ecbb9e49-054c-42cf-a2f9-3c5c68ab9ccb">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f1a99f80-215a-47e0-9804-bcada702543d">
+            <TableID>dbo_DIM_VAN_STOCKLOCATION</TableID>
+            <ColumnID>SUBSIDIARYID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="ccd16b80-53ad-4b3b-9405-ca5cf95f6d0e">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b5d4a0c3-fc2e-4473-b5ba-077cfe52a9c6">
+          <TableID>dbo_DIM_VAN_STOCKLOCATION</TableID>
+          <ColumnID>SUBSIDIARY</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="660379a6-1fb5-40d0-aa69-42516374f4fd">
+      <ID>Hierarchy</ID>
+      <Name>Main Distribution Location - Location</Name>
+      <Levels>
+        <Level dwd:design-time-name="0430a949-f9ca-4fdd-b63c-8c95375e0791">
+          <ID>Main Distribution Location</ID>
+          <Name>Main Distribution Location</Name>
+          <SourceAttributeID>Main Distribution Location</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="d37aa064-fc4c-4bec-b381-4d8fa2436d0a">
+              <Language>2057</Language>
+              <Caption>Main Distribution Location</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="7d1ba294-6686-42af-bb31-3ff50958ada8">
+      <ID>Hierarchy 1</ID>
+      <Name>Storelocation - Location</Name>
+      <Levels>
+        <Level dwd:design-time-name="016b868d-0149-4586-97b6-9a45f49ba376">
+          <ID>Location</ID>
+          <Name>Storelocation</Name>
+          <SourceAttributeID>Location</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="313f2469-5d54-4100-9e82-20ebd8627c90">
+      <ID>Hierarchy 2</ID>
+      <Name>Subsidiary - Stocklocation</Name>
+      <Levels>
+        <Level dwd:design-time-name="6b0e2b36-98e0-4482-9ce7-14235efea4c0">
+          <ID>Subsidiary</ID>
+          <Name>Subsidiary</Name>
+          <SourceAttributeID>SUBSIDIARYID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c9fc5e9f-46e7-4698-969b-1525254aa205">
+          <ID>Stocklocation</ID>
+          <Name>Stocklocation</Name>
+          <SourceAttributeID>STOCKLOCATIONID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching dwd:design-time-name="38c61730-cf19-4adc-8ce5-fe167e9983d2">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="a89d7b5e-10a5-4089-a688-6bd3ae989d82" />
+  </ProactiveCaching>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

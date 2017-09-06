@@ -1,0 +1,359 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="069b4dd1-1e76-4fe1-9293-007583c6118c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Google Adwords Category</ID>
+  <Name>Google Adwords Category</Name>
+  <CreatedTimestamp>2014-09-12T14:13:22.823333Z</CreatedTimestamp>
+  <LastSchemaUpdate>2014-09-16T07:11:35.936667Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3043" scrolltop="-8546" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11404" y="22093" backcolor="16185078" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3043</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-8546</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="177">
+            <Shape Id="Adwords Category Id" Expanded="false">
+              <Attributes>
+                <Attribute Id="Adwords Category Id" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Subsidiary Id" Expanded="false">
+              <Attributes>
+                <Attribute Id="Subsidiary Id" />
+              </Attributes>
+              <Position x="246" y="20" />
+            </Shape>
+            <Shape Id="Parent Parent Adgroup Categoryid" Expanded="false">
+              <Attributes>
+                <Attribute Id="Parent Parent Adgroup Categoryid" />
+              </Attributes>
+              <Position x="246" y="68" />
+            </Shape>
+            <Shape Id="Parent Adgroup Category Id" Expanded="false">
+              <Attributes>
+                <Attribute Id="Parent Adgroup Category Id" />
+              </Attributes>
+              <Position x="246" y="116" />
+            </Shape>
+            <Shape Id="Adgroup Category Id" Expanded="false">
+              <Attributes>
+                <Attribute Id="Adgroup Category Id" />
+              </Attributes>
+              <Position x="246" y="164" />
+            </Shape>
+            <Shape Id="Shop Id" Expanded="false">
+              <Attributes>
+                <Attribute Id="Shop Id" />
+              </Attributes>
+              <Position x="246" y="212" />
+            </Shape>
+            <Shape Id="Team Id" Expanded="false">
+              <Attributes>
+                <Attribute Id="Team Id" />
+              </Attributes>
+              <Position x="246" y="260" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2014-09-13T07:48:21.316667Z</LastProcessed>
+  <State>Processed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1ffbd773-6623-48f4-9e11-b530ccad1001">
+    <DataSourceViewID>Sales</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="996871c7-f061-4796-9bae-ef1968479987">
+    <KeyErrorLimit>-1</KeyErrorLimit>
+    <KeyDuplicate>ReportAndContinue</KeyDuplicate>
+    <NullKeyConvertedToUnknown>ReportAndContinue</NullKeyConvertedToUnknown>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Language>1033</Language>
+  <Collation>Latin1_General_CI_AS</Collation>
+  <UnknownMemberName>Unknown</UnknownMemberName>
+  <Attributes>
+    <Attribute dwd:design-time-name="15abc206-586c-4f5f-a538-f1130ed0e39f">
+      <ID>Team Id</ID>
+      <Name>Team</Name>
+      <EstimatedCount>23</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8a1bba60-0a61-4fc9-a5fc-88721e7798e0">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0040ccdc-7b5e-43cd-a01e-dc4efd9e66a9">
+            <TableID>dbo_dim_gadw_adwordscategory</TableID>
+            <ColumnID>teamid</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="262c4229-a06e-4114-9b59-f813c986e0a0">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d47d91dc-3b7f-4a30-b5ed-1c7931bc4fa5">
+          <TableID>dbo_dim_gadw_adwordscategory</TableID>
+          <ColumnID>team</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5ce81a1e-d2d3-4c56-b94b-3ebe1a2bafc5">
+      <ID>Shop Id</ID>
+      <Name>Shop</Name>
+      <EstimatedCount>422</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6214e1e2-ea7d-4560-a40a-ee5b87b92a2e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="13b0001a-4718-482c-b781-8bddacbfcbb6">
+            <TableID>dbo_dim_gadw_adwordscategory</TableID>
+            <ColumnID>shopid</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="18648a7e-a3ef-4265-aefe-fe9eca8a923c">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ff65acba-77d6-430f-9251-d78cec5ae31d">
+          <TableID>dbo_dim_gadw_adwordscategory</TableID>
+          <ColumnID>shop</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a64fa5f7-1ef7-40a3-a8b3-b22b5d1d6eb9">
+      <ID>Adgroup Category Id</ID>
+      <Name>Adgroup Category Level 3</Name>
+      <EstimatedCount>314</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="23f3d5b8-8bc0-4cd6-a771-7cd8d7428bc4">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c70e1cea-2fd3-43cd-bd06-63c380fd70cb">
+            <TableID>dbo_dim_gadw_adwordscategory</TableID>
+            <ColumnID>adgroupcategory</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="f9e42367-4e7d-4249-b5a8-135401d86e87">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="112d02d3-bc60-42e9-b833-ee742db0f8c3">
+          <TableID>dbo_dim_gadw_adwordscategory</TableID>
+          <ColumnID>adgroupcategory</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b50ce81e-37a3-4855-aabd-209719792c56">
+      <ID>Parent Adgroup Category Id</ID>
+      <Name>Adgroup Category Level 2</Name>
+      <EstimatedCount>44</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9e24fdcb-249a-4bf7-92f7-f005a2e03727">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="314b4b89-fc27-47c0-aa1b-b6bb653958a1">
+            <TableID>dbo_dim_gadw_adwordscategory</TableID>
+            <ColumnID>parentadgroupcategoryid</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="9f17606b-21ed-4b28-8995-30abc4b44dc9">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="025b90b0-638f-4bab-9f5e-bfe54a076963">
+          <TableID>dbo_dim_gadw_adwordscategory</TableID>
+          <ColumnID>parentadgroupcategory</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2c22ac92-5f37-41dd-8632-5aff526ab650">
+      <ID>Parent Parent Adgroup Categoryid</ID>
+      <Name>Adgroup Category Level 1</Name>
+      <EstimatedCount>9</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f4673ca6-41b4-402a-8fbf-548800104fdc">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c9f6d037-3c21-4a5c-8675-8df7811e66f6">
+            <TableID>dbo_dim_gadw_adwordscategory</TableID>
+            <ColumnID>parentparentadgroupcategoryid</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="25ee974e-4547-4643-aacd-fab8c40580f8">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="681e0a34-7800-48a4-b736-437fd1e4987a">
+          <TableID>dbo_dim_gadw_adwordscategory</TableID>
+          <ColumnID>parentparentadgroupcategory</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b383d9cd-8447-49ff-9d9d-32e3913dee8a">
+      <ID>Subsidiary Id</ID>
+      <Name>Subsidiary</Name>
+      <EstimatedCount>4</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5daf6a74-709f-4814-8fa1-61fd5cb08c71">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9c6cc808-e4c3-482e-8cfa-30779516e818">
+            <TableID>dbo_dim_gadw_adwordscategory</TableID>
+            <ColumnID>subsidiaryid</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="7c9669c5-cfe5-492e-961f-c5acec68a956">
+        <DataType>WChar</DataType>
+        <DataSize>40</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="92aa9b9e-20bb-40c9-8752-b3e6a063361d">
+          <TableID>dbo_dim_gadw_adwordscategory</TableID>
+          <ColumnID>subsidiary</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7f51e34b-5925-4eba-80bf-5f7d9168a9db">
+      <ID>Adwordscategoryid</ID>
+      <Name>Adwords Category Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d357b1f6-7f2c-4108-b4af-0622398e1a77">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8fe35240-73e0-48f9-a96d-7c7d93194e2b">
+            <TableID>dbo_dim_gadw_adwordscategory</TableID>
+            <ColumnID>adwordscategoryid</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6e9225f6-afc4-45fe-a152-9c6db8334f46">
+          <AttributeID>Team Id</AttributeID>
+          <Name>Team</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a0770644-c9a4-41aa-9ea9-6f9b7af308b8">
+          <AttributeID>Shop Id</AttributeID>
+          <Name>Shop</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ad77bb63-e633-4c4d-982d-5033783e71b2">
+          <AttributeID>Adgroup Category Id</AttributeID>
+          <Name>Adgroup Category Level 3</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3f69abc7-2517-4f25-ae9e-402874c85fbd">
+          <AttributeID>Parent Adgroup Category Id</AttributeID>
+          <Name>Adgroup Category Level 2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="82171e87-2ed2-4d53-90b6-e76d2bf6a40e">
+          <AttributeID>Parent Parent Adgroup Categoryid</AttributeID>
+          <Name>Adgroup Category Level 1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2320ec6c-55f6-42c1-a24e-e19a8190cd99">
+          <AttributeID>Subsidiary Id</AttributeID>
+          <Name>Subsidiary</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="f4b00413-f85e-4a11-b13c-b17cb7fd0a14">
+      <ID>Hierarchy</ID>
+      <Name>Team - Subsidiary - Shop - Adgroup level 1-3</Name>
+      <Levels>
+        <Level dwd:design-time-name="3ff87e80-ecc1-4532-b2c7-143a8f617859">
+          <ID>Team</ID>
+          <Name>Team</Name>
+          <SourceAttributeID>Team Id</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e73ba01c-dea3-4b24-9eee-7b374236c0fa">
+          <ID>Subsidiary</ID>
+          <Name>Subsidiary</Name>
+          <SourceAttributeID>Subsidiary Id</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="be48b392-4485-40ac-becd-72e9f3fab0f9">
+          <ID>Shop</ID>
+          <Name>Shop</Name>
+          <SourceAttributeID>Shop Id</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="03a5a399-067a-4997-b612-09a0a4f65636">
+          <ID>Adgroup Category Level 1</ID>
+          <Name>Adgroup Category Level 1</Name>
+          <SourceAttributeID>Parent Parent Adgroup Categoryid</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="0ebcee88-7510-4b92-b2f7-8c7117c751eb">
+          <ID>Adgroup Category Level 2</ID>
+          <Name>Adgroup Category Level 2</Name>
+          <SourceAttributeID>Parent Adgroup Category Id</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="14fda614-156b-4cd1-be00-1a8f719f1044">
+          <ID>Adgroup Category Level 3</ID>
+          <Name>Adgroup Category Level 3</Name>
+          <SourceAttributeID>Adgroup Category Id</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ProactiveCaching dwd:design-time-name="1958c81d-4ff2-43e9-a129-c164ccd3e628">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="f72768e6-a6f7-498a-a354-ab125642352c" />
+  </ProactiveCaching>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

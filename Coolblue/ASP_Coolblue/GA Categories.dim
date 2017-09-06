@@ -1,0 +1,246 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="415b87fd-37be-41d0-9802-2ef35098ea10" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>GA Categories</ID>
+  <Name>GA Categories</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8c07ee01-e1dd-455c-8f38-cf4ac1904ecf">
+    <DataSourceViewID>Sales</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="b3b12e97-d21a-4e70-84d3-b03a85f88392">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="e2f3785a-fb52-4252-b366-77029ae5478c">
+      <ID>Categories Id</ID>
+      <Name>Categories Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="13621cb0-4f03-44b7-9401-f647790a3b63">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c679ad6e-90a8-4529-bf52-07ab43219002">
+            <TableID>dbo_dim_ga_categories</TableID>
+            <ColumnID>categories_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="349c37e4-336e-4918-aa38-93a1c07dd251">
+          <AttributeID>Browser Name</AttributeID>
+          <Name>Browser Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4202f6c5-c43a-4de6-b027-7a50869b76c7">
+          <AttributeID>Device Category</AttributeID>
+          <Name>Device Category</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="76e29248-a8f8-4eb8-a994-28ec97a477c4">
+          <AttributeID>Visitor Type</AttributeID>
+          <Name>Visitor Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="884cfa21-adf5-48a1-9492-65bb35ff2636">
+          <AttributeID>Report Category</AttributeID>
+          <Name>Report Category</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1003fd86-01de-406a-b7c3-b63ef0c46201">
+          <AttributeID>Super Category</AttributeID>
+          <Name>Super Category</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="88bd4574-366c-47fa-9bf3-ea37a86740f7">
+          <AttributeID>Page Category</AttributeID>
+          <Name>Page Category</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="30168de8-90c4-434c-851f-8aa440912fed">
+          <AttributeID>Page Super Category</AttributeID>
+          <Name>Page Super Category</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="442341d8-6e5d-432f-94c4-bea257b7634f">
+          <AttributeID>Customer Recognition</AttributeID>
+          <Name>Customer Recognition</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="89f866e7-89da-4546-98cc-43972ccc2bf5">
+      <ID>Browser Name</ID>
+      <Name>Browser Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4ced9003-1ba2-4b28-a181-292380a155ef">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="16318863-088f-4168-a79d-9c262fe54892">
+            <TableID>dbo_dim_ga_categories</TableID>
+            <ColumnID>browser_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fcbda652-7ef6-4dd0-85e2-455b03ec7864">
+      <ID>Device Category</ID>
+      <Name>Device Category</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="53ea1956-2cd2-4d92-83f9-1d9070757501">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9775c338-a73b-4587-b93f-6b83801a82bb">
+            <TableID>dbo_dim_ga_categories</TableID>
+            <ColumnID>device_category</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4e66aa5d-e8d8-44da-af0f-4d8a2313de05">
+      <ID>Visitor Type</ID>
+      <Name>Visitor Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5aa707d5-54a7-4522-9963-1747f6f75787">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ec170daa-d317-466a-b25f-04c09d3b06fe">
+            <TableID>dbo_dim_ga_categories</TableID>
+            <ColumnID>visitor_type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="606b3ec2-6b4b-42c0-a703-cf608f1566f6">
+      <ID>Report Category</ID>
+      <Name>Report Category</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="747b8e8f-54b4-44b4-8f5b-e9809e63c3b5">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cb3f2e97-5e6f-4c98-9572-a95e9a48db30">
+            <TableID>dbo_dim_ga_categories</TableID>
+            <ColumnID>report_category</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="587211e2-7881-467f-8e9b-2d6084944141">
+      <ID>Super Category</ID>
+      <Name>Super Category</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4fb88af5-5f71-4d6a-8757-76f083a86b99">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a61b25e2-2796-4e95-afd6-d2ecae4cd3a8">
+            <TableID>dbo_dim_ga_categories</TableID>
+            <ColumnID>super_category</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="00b28831-474f-473f-8934-188d11f54ada">
+      <ID>Page Category</ID>
+      <Name>Page Category</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="259213dc-73e7-4d4c-9598-bc5192f6112e">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0845bf86-264f-45a1-9911-5ab2eab67f2b">
+            <TableID>dbo_dim_ga_categories</TableID>
+            <ColumnID>page_category</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d7df9696-bcf2-46cd-a2cb-181534bc781e">
+      <ID>Page Super Category</ID>
+      <Name>Page Super Category</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dd522bc2-88ed-4821-8bff-ed0a4333df99">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="415a9a15-c24d-4fd3-bc09-5bf1b503c19d">
+            <TableID>dbo_dim_ga_categories</TableID>
+            <ColumnID>page_super_category</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ce3ef49d-7d34-4483-94ba-ae23ff3e76db">
+      <ID>Customer Recognition</ID>
+      <Name>Customer Recognition</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ecdfc415-f858-470a-90e0-cc4cc83a3b1b">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="312a27ec-baed-4b8e-be34-cb6d0d2c007b">
+            <TableID>dbo_dim_ga_categories</TableID>
+            <ColumnID>customer_recognition</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

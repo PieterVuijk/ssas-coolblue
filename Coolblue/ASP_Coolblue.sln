@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Coolblue", "ASP_Coolblue\Coolblue.dwproj", "{43C92B1C-2C54-4ED4-9CB0-D6C70014D918}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Acceptance|Default = Acceptance|Default
+		Development|Default = Development|Default
+		Production|Default = Production|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43C92B1C-2C54-4ED4-9CB0-D6C70014D918}.Acceptance|Default.ActiveCfg = Acceptance
+		{43C92B1C-2C54-4ED4-9CB0-D6C70014D918}.Acceptance|Default.Build.0 = Acceptance
+		{43C92B1C-2C54-4ED4-9CB0-D6C70014D918}.Acceptance|Default.Deploy.0 = Acceptance
+		{43C92B1C-2C54-4ED4-9CB0-D6C70014D918}.Development|Default.ActiveCfg = Development
+		{43C92B1C-2C54-4ED4-9CB0-D6C70014D918}.Development|Default.Build.0 = Development
+		{43C92B1C-2C54-4ED4-9CB0-D6C70014D918}.Development|Default.Deploy.0 = Development
+		{43C92B1C-2C54-4ED4-9CB0-D6C70014D918}.Production|Default.ActiveCfg = Production
+		{43C92B1C-2C54-4ED4-9CB0-D6C70014D918}.Production|Default.Build.0 = Production
+		{43C92B1C-2C54-4ED4-9CB0-D6C70014D918}.Production|Default.Deploy.0 = Production
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
